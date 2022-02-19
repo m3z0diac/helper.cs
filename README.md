@@ -6,13 +6,13 @@ C# Library contain several methods for easy & friendly working on your c# .net p
 ### Documentation:
 
 #### create new helper class
-'''
+```
 helper hlpr = new helper();
-'''
+```
 
 #### create an SQL Connection with your data base
 for this purpose you have to configurate the server and the database names in the original class here
-'''
+```
     public void Connect()
     {
         string ServerName = "[Your SQL Server Name Here]";
@@ -23,39 +23,39 @@ for this purpose you have to configurate the server and the database names in th
             con.Open();
         }
     }
-'''
+```
 for implement the method in your application form type
-'''
+```
 hlpr.Connect()
-'''
+```
 
 #### create an SQL Deconnection
-'''
+```
 hlpr.Deconnect();
-'''
+```
 
 #### Add values into DataBase Table
 By Default there are 3 columns in the target table, you can modify the original class code for add or remove columns
-'''
+```
 hlpr.InsertToDb("[You_Table_Name]", "columnOneValue", "columnTwoValue", "columnThreeValue");
-'''
+```
 
 #### Remove Row from your DataBase table
-'''
+```
 hlpr.number("[your_Primary_Key]", "[You_Table_Name]", PK_value);
-'''
+```
 
 #### Modify a Row
 By Default there are 3 columns in the target table (named as well by default), you have to modify the ModifyRowDb methode code for add or remove columns
-'''
+```
 hlpr.ModifyRowDb("[You_Table_Name]", "columnOneValue", "columnTwoValue", "columnThreeValue");
-'''
+```
 
 #### Search at a table
 get the dataTable that contain the result of the Search
-'''
+```
 DataTable Result = hlpr.SearchDb("[You_Table_Name]", "[your_Primary_Key]", idBox.Text);
-'''
+```
 
 #### Note:
-''' There are many other and upcaming for sure functions, Refrech - Clear - Exit ...'''
+There are many other and upcaming for sure functions, Refrech - Clear - Exit ...
