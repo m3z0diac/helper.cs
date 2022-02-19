@@ -57,5 +57,11 @@ get the dataTable that contain the result of the Search
 DataTable Result = hlpr.SearchDb("[You_Table_Name]", "[your_Primary_Key]", idBox.Text);
 ```
 
+#### Download for linux (move it on the project folder):
+```
+wget https://raw.githubusercontent.com/hamza07-w/helper.cs/main/helper%20class/helper.cs
+```
+
+
 #### Note:
 There are many other and upcaming for sure functions, Refrech - Clear - Exit ...
