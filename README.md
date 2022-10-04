@@ -12,7 +12,7 @@ helper hlpr = new helper();
 
 #### create an SQL Connection with your data base
 for this purpose you have to configurate the server and the database names in the original class here
-cs```
+```
     public void Connect()
     {
         string ServerName = "[Your SQL Server Name Here]";
