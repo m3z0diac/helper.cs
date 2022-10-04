@@ -6,7 +6,7 @@ C# Library contain several methods for easy & friendly working on your c# .net p
 ### Documentation:
 
 #### create new helper class
-```
+```c#
 helper hlpr = new helper();
 ```
 
